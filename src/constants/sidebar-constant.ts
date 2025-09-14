@@ -35,7 +35,7 @@ export const SIDEBAR_MENU_LIST = {
     },
   ],
   cashier: [],
-  kitchen: [],
+  inventory: [],
 };
 
 export type SidebarMenuKey = keyof typeof SIDEBAR_MENU_LIST;
