@@ -34,8 +34,25 @@ export const SIDEBAR_MENU_LIST = {
       icon: Users,
     },
   ],
-  cashier: [],
-  inventory: [],
+  cashier: [
+    {
+      title: "Order",
+      url: "/order",
+      icon: Album,
+    },
+  ],
+  inventory: [
+    {
+      title: "Order",
+      url: "/order",
+      icon: Album,
+    },
+    {
+      title: "Menu",
+      url: "/admin/menu",
+      icon: SquareMenu,
+    },
+  ],
 };
 
 export type SidebarMenuKey = keyof typeof SIDEBAR_MENU_LIST;
